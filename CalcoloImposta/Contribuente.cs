@@ -85,7 +85,7 @@ namespace CalcoloImposta
         public void GetSesso()
 
         {
-            Console.WriteLine("\nSCEGLI GENERE\n 1)Maschio \n2)Femmina \n3)None");
+            Console.WriteLine("\nSCEGLI GENERE\n1)Maschio \n2)Femmina \n3)None");
             int sesso;
             int.TryParse(Console.ReadLine(), out sesso);
 
