@@ -33,13 +33,13 @@ namespace CalcoloImposta
 
         public string GetName()
         {
-            Console.WriteLine("Nome :");
+            Console.WriteLine("\nNome :");
             return name = Console.ReadLine();
 
         }
         public string GetCognome() //
         {
-            Console.WriteLine("Cognome :");
+            Console.WriteLine("\nCognome :");
             return cognome = Console.ReadLine();
         }
         public string GetGiorno()  //
@@ -63,7 +63,7 @@ namespace CalcoloImposta
         public void GetCodiceFiscale()
         {
 
-            Console.WriteLine("Inserisci codice Fiscale");
+            Console.WriteLine("\nInserisci codice Fiscale");
             codiceFiscale = Console.ReadLine();
 
 
@@ -89,7 +89,7 @@ namespace CalcoloImposta
             int sesso;
             int.TryParse(Console.ReadLine(), out sesso);
 
-            switch (sesso)
+            switch (sesso)          // genero una scelta per il genere
             {
 
                 case 1:
@@ -103,7 +103,7 @@ namespace CalcoloImposta
                     Console.WriteLine("\nSesso : None");
                     break;
                 default:
-                    Console.WriteLine("non valido");
+                    Console.WriteLine("\nnon valido");
                     break;
 
             }
@@ -118,13 +118,13 @@ namespace CalcoloImposta
 
         public void CalcoloImposta()       
         {
-            Console.WriteLine("Reddito annuale");
+            Console.WriteLine("\nReddito annuale");
             double redditoAnnualeLordo;
             double.TryParse(Console.ReadLine(), out redditoAnnualeLordo);  // rendo leggibile il dato numerico
                                                                             // creo i vari casi dell'imposta
             if (redditoAnnualeLordo <= 15000)
             {
-                Console.WriteLine($"La tua imposta è {redditoAnnualeLordo *0.23}");            
+                Console.WriteLine($"\nLa tua imposta è {redditoAnnualeLordo *0.23}");            
             }
             else if(redditoAnnualeLordo <= 28000)
             {
@@ -145,7 +145,7 @@ namespace CalcoloImposta
      
         }
 
-           public void GetStorare()
+           public void GetStorare()                   // stampo tutto 
            {
             Console.WriteLine($"NOME: {name}");
             Console.WriteLine($"COGNOME:{cognome}\n");
