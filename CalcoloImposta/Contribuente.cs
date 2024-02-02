@@ -63,7 +63,7 @@ namespace CalcoloImposta
         public void GetCodiceFiscale()
         {
 
-            Console.WriteLine("\nINSERISCI");
+            Console.WriteLine("\nINSERISCI CODICE FISCALE");
             codiceFiscale = Console.ReadLine();
 
 
