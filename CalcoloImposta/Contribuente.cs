@@ -8,7 +8,7 @@ using System.Web;
 
 namespace CalcoloImposta
 {
-    internal class Contribuente
+    internal class Contribuente                             
     {
         private string name { get; set; }
         private string cognome { get; set; }

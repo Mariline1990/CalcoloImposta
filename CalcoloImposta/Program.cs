@@ -44,10 +44,8 @@ namespace CalcoloImposta
                         persona.GetStorare();
 
                         break;
+                   
                     case 2:
-                        persona.GetStorare();
-                        break;
-                    case 3:
 
                         esci = false;
                         break;
