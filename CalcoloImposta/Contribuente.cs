@@ -33,13 +33,13 @@ namespace CalcoloImposta
 
         public string GetName()
         {
-            Console.WriteLine("\nNome :");
+            Console.WriteLine("\nNOME :");
             return name = Console.ReadLine();
 
         }
         public string GetCognome() //
         {
-            Console.WriteLine("\nCognome :");
+            Console.WriteLine("\nCOGNOME :");
             return cognome = Console.ReadLine();
         }
         public string GetGiorno()  //
@@ -52,18 +52,18 @@ namespace CalcoloImposta
         }
         public string GetMese()//
         {
-            Console.WriteLine("\nMese :");
+            Console.WriteLine("\nMESE :");
             return mese = Console.ReadLine();
         }
         public string GetAnno()//
         {
-            Console.WriteLine("\nAnno :");
+            Console.WriteLine("\nANNO :");
             return anno = Console.ReadLine();
         }
         public void GetCodiceFiscale()
         {
 
-            Console.WriteLine("\nInserisci codice Fiscale");
+            Console.WriteLine("\nINSERISCI");
             codiceFiscale = Console.ReadLine();
 
 
